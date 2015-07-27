@@ -9,8 +9,10 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
+        <link rel="icon" type="image/jpg" href="img/favicon.jpg" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -36,7 +38,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">Portfolio</a></li>
+                    <li><a href="index.html" class="active">Portfolio</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                   </ul>
@@ -48,13 +50,13 @@
         <div class='container'>
             
             <header>
-                <img src="img/dnlogo.jpg" alt="main diana nguyen logo" />
+                <a href="index.html"><img src="img/dnlogo.jpg" alt="main diana nguyen logo" /></a>
                 <h1>Diana Nguyen + Graphic Designer</h1>
                 <hr />
             </header>
              <nav class="main-nav">
                 <ul>
-                    <li class="active"><a href="index.html">Portfolio</a></li>
+                    <li><a href="index.html" class="active">Portfolio</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -66,31 +68,34 @@
         <section>
             <div class="row">
                 <div class="col-md-4 portfolio-item">
-                    <a href="#">
-                        <img class="img-responsive thumbnail" src="img/boom.jpg" alt="">
+                    <a href="boom.html" id="iframe">
+                        <img class="img-responsive" src="img/boom.jpg" alt="">
                     </a>
-                    <h3>
-                        <a href="#">Irma Boom Poster</a>
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    <div class="text-wrap">
+                        <h3>
+                            <a href="#">Irma Boom Poster</a>
+                        </h3>
+                    </div>
                 </div>
                 <div class="col-md-4 portfolio-item">
-                    <a href="#">
-                        <img class="img-responsive thumbnail" src="img/polish.png" alt="">
+                    <a href="polish.html" id="iframe">
+                        <img class="img-responsive" src="img/polish.png" alt="">
                     </a>
-                    <h3>
-                        <a href="#">Peek Polish</a>
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                        <div class="text-wrap">
+                        <h3>
+                            <a href="#">Peek Polish</a>
+                        </h3>
+                    </div>
                 </div>
                 <div class="col-md-4 portfolio-item">
-                    <a href="#">
-                        <img class="img-responsive thumbnail" src="img/chips.jpg" alt="">
+                    <a href="chips.html" id="iframe">
+                        <img class="img-responsive" src="img/chips.jpg" alt="">
                     </a>
-                    <h3>
-                        <a href="#">Chips</a>
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    <div class="text-wrap">
+                        <h3>
+                            <a href="#">Chips</a>
+                        </h3>
+                    </div>
                 </div>
             </div>
             <!-- /.row -->
@@ -98,62 +103,68 @@
             <!-- Projects Row -->
             <div class="row">
                 <div class="col-md-4 portfolio-item">
-                    <a href="#">
-                        <img class="img-responsive thumbnail" src="img/constitution.png" alt="">
+                    <a href="constitution.html" id="iframe">
+                        <img class="img-responsive" src="img/constitution.png" alt="">
                     </a>
-                    <h3>
-                        <a href="#">US Constitution Booklet</a>
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    <div class="text-wrap">
+                        <h3>
+                            <a href="#">US Constitution Booklet</a>
+                        </h3>
+                    </div>
                 </div>
                 <div class="col-md-4 portfolio-item">
-                    <a href="#">
-                        <img class="img-responsive thumbnail" src="img/delivery.jpg" alt="">
+                    <a href="delivery.html" id="iframe">
+                        <img class="img-responsive" src="img/delivery.jpg" alt="">
                     </a>
-                    <h3>
-                        <a href="#">Lightening Delivery</a>
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    <div class="text-wrap">
+                        <h3>
+                            <a href="#">Lightening Delivery</a>
+                        </h3>
+                    </div>
                 </div>
                 <div class="col-md-4 portfolio-item">
-                    <a href="#">
-                        <img class="img-responsive thumbnail" src="img/flowers.jpg" alt="">
+                    <a href="flowers.html" id="iframe">
+                        <img class="img-responsive" src="img/flowers.jpg" alt="">
                     </a>
-                    <h3>
-                        <a href="#">Landscape Photography</a>
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    <div class="text-wrap">
+                        <h3>
+                            <a href="#">Landscape Photography</a>
+                        </h3>
+                    </div>
                 </div>
             </div>
 
             <!-- Projects Row -->
             <div class="row">
                 <div class="col-md-4 portfolio-item">
-                    <a href="#">
-                        <img class="img-responsive thumbnail" src="img/mana.jpg" alt="">
+                    <a href="mana.html" id="iframe">
+                        <img class="img-responsive" src="img/mana.jpg" alt="">
                     </a>
-                    <h3>
-                        <a href="#">Mana Tea House</a>
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    <div class="text-wrap">
+                        <h3>
+                            <a href="#">Mana Tea House</a>
+                        </h3>
+                    </div>
                 </div>
                 <div class="col-md-4 portfolio-item">
-                    <a href="#">
-                        <img class="img-responsive thumbnail" src="img/catalog.png" alt="">
+                    <a href="catalog.html" id="iframe">
+                        <img class="img-responsive" src="img/catalog.png" alt="">
                     </a>
-                    <h3>
-                        <a href="#">Nail Supply Catalog</a>
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    <div class="text-wrap">
+                        <h3>
+                            <a href="#">Nail Supply Catalog</a>
+                        </h3>
+                    </div>
                 </div>
                 <div class="col-md-4 portfolio-item">
-                    <a href="#">
-                        <img class="img-responsive thumbnail" src="img/valley.jpg" alt="">
+                    <a href="valley.html" id="iframe">
+                        <img class="img-responsive" src="img/valley.jpg" alt="">
                     </a>
-                    <h3>
-                        <a href="#">El Monte Community Posters</a>
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    <div class="text-wrap">
+                        <h3>
+                            <a href="#">El Monte Community Posters</a>
+                        </h3>
+                    </div>
                 </div>
             </div>
         </section>
@@ -177,6 +188,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="js/fancybox/jquery.fancybox.pack.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
