@@ -21,7 +21,8 @@ $(function(){
 	    'autoScale'     : false,
 	    'transitionIn'  : 'none',
 	    'transitionOut' : 'none',
-	    'type'          : 'iframe'
+	    'type'          : 'iframe',
+	    padding: 0
 	});
 
 });

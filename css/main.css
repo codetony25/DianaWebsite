@@ -104,11 +104,11 @@ h1, h2, h3 ,h4, h5, h6 {
 }
 
 p {
-    font-family: Georgia;
+    font-family: Georgia, Helvetica, sans-serif;
 }
 
 a {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
 }
 
@@ -139,9 +139,8 @@ header h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 15px;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 
 
 
@@ -209,7 +208,7 @@ section {
 }
 
 .portfolio-item a {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
     font-size: 0.7em;
 }
@@ -245,26 +244,16 @@ section {
     text-align: center;
 }
 
-/*-----  End of About Me  ------*/
-
-
-/*==================================
-=            Contact Me            =
-==================================*/
-
-
-.contact h3, .contact p {
+.email h3 {
     text-align: center;
     text-transform: none;
+    margin-top: 60px;
 }
 
-.contact p {
-    margin-bottom: 20px;
+.email p {
+    text-align: center !important;
 }
 
-.contact p a {
-    color: black;
-}
 
 .icons {
     text-align: center;
@@ -275,10 +264,15 @@ section {
     font-size: 3.0em;
     letter-spacing: 25px;
     transition: 0.2s;
+    color: black;
 }
 
+.icons i:hover {
+    opacity: 0.7;
+}
 
-/*-----  End of Contact Me  ------*/
+/*-----  End of About Me  ------*/
+
 
 /*=======================================
 =            LightBox Styles            =
@@ -289,12 +283,14 @@ section {
 }
 
 .lightboxme h1 {
-    font-size: 1.2em;
+    font-size: 1.6em;
+    font-weight: bold;
 }
 
 .lightboxme h3 {
     font-size: 1.0em;
     margin-bottom: 20px;
+    font-style: italic;
 }
 
 .theimages img {
@@ -360,6 +356,7 @@ footer p {
     .main-nav ul li a {
         font-size: 1.2em;
         letter-spacing: 1px;
+        text-decoration: none;
     }
 
     .main-nav ul li:not(:last-child) {
@@ -536,7 +533,7 @@ footer p {
 
     a,
     a:visited {
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     a[href]:after {
